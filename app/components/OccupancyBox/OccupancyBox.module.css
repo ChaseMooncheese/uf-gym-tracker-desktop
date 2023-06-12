@@ -1,0 +1,28 @@
+.container {
+    width: 12rem;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    margin: 1rem;
+}
+
+.inner {
+    width:70%;
+    height:70%;
+    align-self: center;
+    position: relative;
+    top:0;
+    margin-bottom: 10px;
+}
+
+.circle {
+    background-color: red;
+    fill:red;
+    stroke:purple;
+    stroke-width: 2;
+    stroke-dasharray: 250;
+    stroke-dashoffset: 1000;
+}
